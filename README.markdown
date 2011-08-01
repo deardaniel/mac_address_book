@@ -10,6 +10,34 @@ TODO
 * **Tests**
 * Fix compatibility bugs with Lion (reading some properties of a Person causes a crash)
 
+Installation & Usage
+--------------------
+
+### Installation
+
+```bash
+clone git://github.com/deardaniel/mac_address_book.git
+cd mac_address_book
+bundle install
+rake install
+```
+
+### Accessing the Address Book
+
+Require the library:
+
+```ruby
+require 'mac_address_book'
+```
+
+Use the AddressBook class in the MacAddressBook module to access OS X's address book:
+
+```ruby
+MacAddressBook::AddressBook
+```
+
+See examples below for further usage.
+
 Examples
 --------
 
