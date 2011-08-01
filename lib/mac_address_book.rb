@@ -9,6 +9,10 @@ module MacAddressBook
     def to_s
       organization || [title, first, middle, last, suffix].compact.join(' ')
     end
+    
+    def properties
+      @@properties
+    end
   end
 
 

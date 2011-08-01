@@ -21,7 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "mac_address_book"
   gem.homepage = "http://github.com/deardaniel/mac_address_book"
   gem.license = "MIT"
-  gem.summary = %Q{An interface to OS X's Address Book}
+  gem.summary = %Q{A ruby interface to OS X's Address Book}
   gem.description = %Q{This is a simple wrapper around OS X's AddressBook framework's classes allowing access to the Address Book database from Ruby.}
   gem.email = "me@daniel.ie"
   gem.authors = ["Daniel Heffernan"]
